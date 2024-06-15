@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.LW{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.LogoWrapper {
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+}
+.Logo{
+  background-image: url('../src/images/Vector.png') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+.one {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  margin-bottom: 7rem;
+}
+.HeroWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.HeroContainer {
+  margin: 1rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 0;
+  width: 40%;
+}
+.ImageContainer{
+  background-image: url('../src/images/AD_Save-the-Date.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 900px; 
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.HeroImage {
+  width: 100%; 
+  max-width: 400px; 
+  height: auto; 
+  object-fit: cover;
+  border-radius: 4%;
+}
+
+.HeroFecha {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 5px;
+}
+
+.HeroFecha > p {
+  margin: 0;
+  padding: 0;
+  width: 297px;
+  height: 72px;
+  top: 682px;
+  left: 492px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: white;
+}
+
+.HeroNombres {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+.HeroNombres > p {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 24px;
+  /* margin-top: 2rem; */
+  /* line-height: 72px; */
+  letter-spacing: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.two {
+  align-items: center;
+}
+
+.FechaSectionWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.FechaSection {
+  height: 30%;
+  width: 60vw;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: space-between;
+}
+
+.FechaHora {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 45px;
+  border-radius: 3px;
+  align-items: center;
+}
+.FechaHora > p {
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.Separadores {
+  border-left: 3px #F2EFDF solid;
+  border-right: 3px #F2EFDF solid;
+}
+.LugarWrapper{
+  justify-items: end;
+  color: #15463E;
+}
+.Lugar {
+  color: #15463E;
+  margin-top: 3rem;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  font-family: Poppins;
+  align-items: center;
+}
+.Lugar_direccion {
+  color: #343434;
+  margin-top: 50px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 27px;
+  /* letter-spacing: 0.9px; */
+  font-weight: 400;
+  font-family: Poppins;
+  align-items: center;
+}
+.two__Wrapper {
+  background-image: url(https://cdn0.bodas.com.mx/website/fotos/templates/321_home.png?v=58bcaec3762bfb1427980129cc969a60);
+  z-index: 0;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textTwoWrapper {
+  display: block;
+  justify-content: center;
+  align-self: center;
+}
+.nosCasamos {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.fecha {
+  margin-bottom: 60px;
+  font-size: 60px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.lugar {
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.three {
+  display: block;
+}
+.Direccion{
+  align-self: center;
+  margin: 5rem 0;
+}
+.Direccion > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.VerMapa {
+  background-color: #15463E;
+  border-radius: 80px;
+  color: white;
+  padding: 1px 24px;
+  outline: transparent;
+  border-color: transparent;
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.9px;
+  gap: 10px;
+  width: 150px;
+  height: 43px;
+}
+.SeparadorPuntoWrapper {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Poppins;
+  margin: 3rem 0;
+}
+.SeparadorPunto {
+  background-image: url('../src/images/sep.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 10px;
+  width: 150px;
+  color: #F2EFDF;
+  gap: 35px;
+  font-family: Poppins;
+}
+.ItinerarioVerde {
+  color: #15463E;
+  font-weight: bold;
+  margin: 1rem;
+  font-family: Poppins;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+}
+.ItinerarioVerde_letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #013220;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: Poppins;
+}
+.ItinerarioText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: Poppins;
+  letter-spacing: 0.9px;
+}
+.ItinerarioTextWrapper {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.WrapperItinerario {
+  width: 100%;
+  background-color: rgba(242, 239, 223, 0.4);
+  padding: 1rem 0;
+}
+.WrapperItinerario > p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Poppins;
+  letter-spacing: 0.9px;
+}
+.ItinerarioWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+.NavBar__Wrapper{
+  background-color: #ffffff68;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  font-family: Poppins;
+
+}
+.NavBar__Item{
+  font-family: Poppins;
+}
+.NavBar{
+  list-style-type: none;
+  padding: 0;
+}
+.NavBar__Item{
+  display:inline;
+  margin: 1rem;
+}
+.WrapperCalendarSection{
+  display: block;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.OpcionesHospedaje{
+  margin-bottom: 3rem;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 5px;
+  font-family: Poppins;
+  color: #013220;
+}
+.Hospedaje > a{
+  color: #15463E;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: Poppins;
+  letter-spacing: 0.9px;
+}
+.ConfirmaTitulo{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: Poppins;
+  letter-spacing: 5px;
+  
+  color: #F2EFDF;
+}
+.Form{
+  display: block;
+}
+.Confirmacion{
+  width: 100%;
+  background-color: #15463E;
+  color: white;
+  padding: 2rem 1rem 5rem 1rem;
+  gap: 60px;
+}
+.ConfirmacionTextWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -60px;
+}
+.ConfirmacionText{
+  width: 800px;
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 18px; 
+  color: white;
+}
+.Hospedaje >a:hover{
+  color: #00c9a8;
+}
+.HospedajeLink{
+  font-family: Poppins;
+}
+
+.MoneyLink {
+  text-decoration: underline; /* Underline the link */
+  color: #00B295; /* Inherit the color from the parent element */
+}
+
+.MoneyLink:visited {
+  color: inherit; /* Ensure the color remains the same after the link is visited */
+}
+
+.MoneyLink:hover {
+  color: inherit;
+}
+
+.TuNombre{
+  width: 100%;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+.ConfirmaRounded{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: left;
+}
+.TextoAbajo{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  /* margin-top: -5px; */
+  margin-block-end: 50px;
+  text-align: left;
+  
+  color: #EBEBEB;
+}
+.WrapperBtnConfirma{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.BtnConfirma{
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.9px;
+  background-color: #F2EFDF;
+  padding: 10px, 40px, 10px, 40px  ;
+  border-radius: 80px;
+  color: #000000;
+  border-color: transparent;
+  transition-duration: 0.4s;
+  display: inline-block; 
+}
+.BtnConfirma:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid #007bff;
+}
+.InputRadio{
+  background-color: #050505;
+  
+}
+.WrapperRadio{
+  background-color: transparent;
+  
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.9px;
+}
+.WrapperAll{
+  display: block;
+}
+.FormConfirma{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.InputNombreWrapper{
+  background-color: #F2EFDF;
+  border-radius: 16px; 
+}
+.InputNombre{
+  width: 100%;
+  border-radius: 16px;
+  background-color: #F2EFDF;
+  border-color: transparent;
+  outline: none;
+  font-family: Poppins;
+  font-size: 18px;
+  color: #777777;
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 300;
+}
+.FormWrapper{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.InputWrapper{
+  display: block;
+  width: 100%;
+  margin: 2rem 0;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+.footerLeft{
+  font-family: Poppins;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  justify-self: left;
+  margin-left: 2rem;
+}
+.footerRigth{
+  font-family: Poppins;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  justify-self: right;
+  margin-right: 2rem;
+  align-self: end;
+
+}
+.Footer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: end;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  background-color:#15463E;
+  color: white;
+  padding: 2rem;
+} 
+.Hospedaje{
+  display: block;
+}
+.CounterWrapper{
+  display: block;
+  align-self: center;
+  height: 100%;
+  margin: 10px auto;
+  padding: 0 3rem;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+.Counter_DA{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+  padding: 0;
+  height: 10;
+  gap: 15px;
+  
+}
+.space{
+  height: 1rem;
+}
+.Counter_DA > p{
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+  background-color: hsla(30, 100%, 95%, 0.5);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 2px;  
+  font-family: Poppins;
+}
+.CounterText{
+/* color: red; */
+font-size: 12px;
+margin: 0;
+letter-spacing: 0.1px;
+}
+.AddCalendar{
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5rem;
+}
+.AddCalendar > p{
+  margin-top: 2.5rem;
+}
+.OpcionesCalendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OpcionesCalendar > p{
+  border-radius: 50px;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.SeparadorFlor{
+  background-image: url('../src/images/fill.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 275.52px;
+  height: 30px;
+}
+.SeparadorFlor1{
+  background-image: url('../src/images/fill-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 275.52px;
+  height: 30px;
+}
+.SeparadorWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.WrapperTextCalendar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  white-space: pre-wrap;
+}
+.TextCalendar{
+  width: 60%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins;
+  white-space: pre-wrap;
+}
+.highlight{
+  font-style: italic !important;
+  color: #00B295;
+}
+.MesaRegalosWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+.MesaRegalos{
+  width: 60%;
+}
+.MesaRegalosSeparadorWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+}
+.MesaRegalosSeparador{
+  background-image: url('../src/images/gift.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 120px;
+}
+.MesaRegalosTitulo{
+  justify-content: center;
+  align-items: center;
+  color: #15463E;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: Poppins;
+  letter-spacing: 5px;
+}
+.MesaRegalosText{
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.PopUpWrapper{
+  height: 100vh;
+  display: flex;
+  background-color: #e1e1e148;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  width: 100%;
+}
+.PopUp{
+  width: 60%;
+  border-radius: 30px;
+  padding: 5rem;
+  color: white;
+  background-color: #15463e;
+}
+.PopUpConfirma{
+  display: block;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.OkCierra{
+  background-color: #F2EFDF;
+  color: #000;
+  outline-color: transparent;
+  border-color: transparent;
+  padding: 5px 2rem ;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease-in;
+  gap: 10px;
+  width: 115px;
+  height: 43px;
+  font-family: Poppins;
+  font-size: 18px;
+  border-radius: 80px;
+}
+
+@media (max-width:768px) {
+  .one{
+    display: grid;
+    grid-template-rows: 700px 100px;
+    min-height: 0;
+    margin-bottom: 3rem;
+  }
+  .HeroContainer{
+    width: 100%;
+  }  
+  .ImageContainer{
+    background-size: cover;
+    height: 700px;
+  }
+  .HeroWrapper{
+    max-height: 900px;
+  }
+  .TextCalendar{
+    width: 90%;
+  }
+  .CounterWrapper{
+    width: 100%;
+  }
+  .MesaRegalos{
+    width: 100%;
+    padding:0;
+    padding-top: 2rem;
+  }
+  .NavBar__Wrapper{
+    display: none;
+  }
+  .LW{
+    margin: 1rem 0;
+  }
+  .footerLeft{
+    margin-left: 0;
+  }
+  .footerRigth{
+    margin-right: 0;
+  }
+  .Footer{
+    padding: 2rem;
+  }
+  .InputNombre{
+    font-size: 18px;
+  }
+  .FechaSection{
+    width: 100%;
+    margin: 0.5rem;
+  }
+  .PopUp{
+    width: 100%;
+    margin: 1rem;
+  }
+}
